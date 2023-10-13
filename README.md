@@ -28,7 +28,7 @@ Use the schema.sql file in the db folder to create your database using MySQL she
 
 ## 4. Github
 
-- My Github link: https://github.com/StevenRodriguezDev/EmployeTracker
+- My Github link: https://github.com/StevenRodriguezDev/E-commerce
 
 ## 5. Email
 
