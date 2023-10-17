@@ -110,7 +110,9 @@ router.put('/:id', (req, res) => {
         });
       }
 
-      return res.json(product);
+      
+
+      res.status(200).json({message: "This product has been updated."});
     })
     .catch((err) => {
       // console.log(err);
@@ -130,7 +132,7 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: "No product found with that ID." });
       return;
     }
-    res.status(200).json({message: "Product Deleted, taking dirt nap"});
+    res.status(200).json({message: "Product Deleted"});
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
